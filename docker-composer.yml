@@ -1,0 +1,8 @@
+version '1.0'
+
+services:
+    jenkins:
+      build:
+          dockerfile: Jenkins.Dockerfile
+    ports:
+      - 80:8080
